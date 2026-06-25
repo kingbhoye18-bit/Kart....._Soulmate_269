@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>The Notice on the Door — Short Story</title>
+  <style>
+    :root{--bg:#fff9f2;--card:#ffffff;--accent:#ff7a59;--muted:#6b6b6b;--radius:12px}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%);margin:0;padding:28px;color:#222}
+    .story-wrap{max-width:760px;margin:0 auto;background:var(--card);border-radius:var(--radius);box-shadow:0 6px 30px rgba(19,21,22,0.06);padding:28px 32px}
+    .note{display:inline-block;background:var(--accent);color:#fff;padding:8px 12px;border-radius:999px;font-weight:600;margin-bottom:16px}
+    h1{margin:0 0 12px;font-size:1.6rem}
+    .meta{color:var(--muted);font-size:0.9rem;margin-bottom:18px}
+    p{line-height:1.6;margin:10px 0}
+    .kettle{float:right;margin-left:14px;width:88px;height:88px;filter:drop-shadow(0 4px 12px rgba(0,0,0,0.06));}
+    .actions{display:flex;gap:10px;margin-top:18px}
+    .btn{border:0;padding:8px 12px;border-radius:8px;cursor:pointer;font-weight:600}
+    .btn.share{background:#0ea5a4;color:#fff}
+    .btn.read{background:transparent;border:1px solid #eee}
+    @media (max-width:600px){ .kettle{float:none;display:block;margin:0 auto 12px} }
+  </style>
+</head>
+<body>
+  <article class="story-wrap" aria-labelledby="story-title">
+    <span class="note">This is related to a real story — but not real. Enjoy! 😊</span>
+    <h1 id="story-title">The Notice on the Door</h1>
+    <div class="meta">A short, playful piece — light fiction</div>
+
+    <!-- Decorative kettle SVG -->
+    <svg class="kettle" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <g fill="none" fill-rule="evenodd"><rect width="64" height="64" rx="10" fill="#FFF2E9"/><path d="M20 42c0 5.523 4.477 10 10 10s10-4.477 10-10v-2H20v2z" fill="#FFB199"/><path d="M20 22h24v10H20z" fill="#FFD7C1"/><path d="M44 18h4v6h-4z" fill="#FF7A59"/><circle cx="32" cy="16" r="3" fill="#FF7A59"/></g>
+    </svg>
+
+    <p>"This is related to a real story, but it's not a real story... So you don't take it seriously. Enjoy! 😊" The note was taped to the bakery door as if the baker herself had written it and then forgotten what she meant.</p>
+    <p>Maya found the note first, at seven in the morning, while chasing a runaway baguette (how it escaped was another story and definitely not to be taken seriously). She paused, read the message, shrugged, and pushed the door open. The bell above the counter jingled exactly three times—never two, never four—because the bell had opinions about rhythm.</p>
+    <p>Inside, the bakery smelled of cinnamon and things that had once hoped to be croissants. The baker, a tall woman with flour on her earlobe, greeted Maya like an old friend who remembered her name despite having met her only yesterday. “You saw the sign?” she asked. “Good. Then you’ll understand when the kettle starts telling secrets.”</p>
+    <p>Maya blinked. “Kettle?”</p>
+    <p>At precisely 7:12 the teapot on the counter coughed, cleared its spout, and announced, “Love is merely a warm cup with someone who thinks your stories are less boring than their own.”</p>
+    <p>Customers hummed in polite agreement. A man in a suit dropped a roll and nodded solemnly. A child clapped and asked the kettle where it had learned to be wise. The kettle, offended at being called wise, insisted it was merely well-steeped.</p>
+    <p>“Not everything here is what it seems,” the baker said, arranging scones by height. “The pastries have opinions too. The lemon tart thinks the moon is underrated.”</p>
+    <p>Maya, who had come in to buy a plain roll and perhaps a moment of normalcy, realized “plain” did not exist in this part of town. She ordered a roll anyway. The roll sighed when she named it and asked if it could be part of her story later. She said yes, because when rolls talk, you say yes.</p>
+    <p>News of the talking kettle spread like jam—slow and sticky but very popular. By midday, the bakery hosted a council of strangers who brought impossible questions: whether umbrellas could be held for other umbrellas, whether teapots could harbor regret, and what to do about a neighbor who kept stealing sunbeams. The kettle addressed each with calm steam and a tendency to rhyme.</p>
+    <p>Days passed. The city learned to take small absurdities as delightful, like finding a misplaced constellation on Tuesday. The baker wrote a new note and taped it beside the old: “This is related to a real story, but it's not a real story... and now there’s a kettle who edits my sentences.” People laughed and read it aloud, because grammar and magic both appreciate attention.</p>
+    <p>Maya left the bakery with a roll under her arm and a story in her pocket that felt exactly like warm bread—soft, a little messy, and impossible to keep to herself. When someone asked if it was true, she would smile and say, “It’s related to a real story, but not a real story—so you don’t have to take it seriously.” Then she’d wink, because some truths are best told between laughter and crumbs.</p>
+
+    <div class="actions" role="group" aria-label="story actions">
+      <button class="btn share" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent('The Notice on the Door — a short whimsical story: ' + location.href))">Share</button>
+      <button class="btn read" onclick="document.querySelector('.story-wrap').classList.toggle('compact')">Toggle view</button>
+    </div>
+  </article>
+</body>
+</html>
